@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="616" height="397" viewBox="0 0 616 397">
+  <defs>
+    <filter id="Union_1" x="0" y="0" width="616" height="397" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#c67eb6" flood-opacity="0.275"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_1-2" x="0" y="0" width="616" height="397" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.675" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-186 -122)">
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, 186, 122)" filter="url(#Union_1)">
+        <path id="Union_1-3" data-name="Union 1" d="M271.093,337a95.981,95.981,0,0,1-109.612,11.456,139.772,139.772,0,0,1-16.268.948C65.015,349.4,0,281.017,0,196.661S65.015,43.921,145.214,43.921a138.657,138.657,0,0,1,56.745,12.1C228.59,21.823,269.049,0,314.357,0,378.1,0,432.247,43.194,451.786,103.276a126.06,126.06,0,0,1,15.979-1.013C536.378,102.264,592,157.587,592,225.832S536.378,349.4,467.765,349.4a124.674,124.674,0,0,1-40.782-6.812A108.308,108.308,0,0,1,271.093,337Z" transform="translate(8 8)" fill="#f0e6ff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 186, 122)" filter="url(#Union_1-2)">
+        <path id="Union_1-4" data-name="Union 1" d="M271.093,337a95.981,95.981,0,0,1-109.612,11.456,139.772,139.772,0,0,1-16.268.948C65.015,349.4,0,281.017,0,196.661S65.015,43.921,145.214,43.921a138.657,138.657,0,0,1,56.745,12.1C228.59,21.823,269.049,0,314.357,0,378.1,0,432.247,43.194,451.786,103.276a126.06,126.06,0,0,1,15.979-1.013C536.378,102.264,592,157.587,592,225.832S536.378,349.4,467.765,349.4a124.674,124.674,0,0,1-40.782-6.812A108.308,108.308,0,0,1,271.093,337Z" transform="translate(8 8)" fill="#fff"/>
+      </g>
+    </g>
+    <line id="Line_1" data-name="Line 1" x2="30" transform="translate(415.5 235.5)" fill="none" stroke="#ba97c9" stroke-linecap="round" stroke-width="6"/>
+    <path id="Path_4" data-name="Path 4" d="M0,0,29.546,9.719" transform="translate(504.123 242.631)" fill="none" stroke="#ba97c9" stroke-linecap="round" stroke-width="6"/>
+    <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="26" cy="12" rx="26" ry="12" transform="translate(363 252)" fill="#f5b9e8" opacity="0.585"/>
+    <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="26" cy="12" rx="26" ry="12" transform="translate(528 263)" fill="#f5b9e8" opacity="0.585"/>
+    <path id="Path_3" data-name="Path 3" d="M451.46,261.752s9.953,7.969,21.638,8.826a61.857,61.857,0,0,0,21.4-2.323" fill="none" stroke="#ba97c9" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+  </g>
+</svg>
