@@ -25,16 +25,17 @@
 
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body class="text-center">
-    <form class="form-signin">
-      <img id="logo-img" src="images/logo.png" alt="cloud logo image" />
+    <form class="form-signin" action="/" method="post">
+      <img id="logo-img" src="images/logo.svg" alt="cloud logo image" />
       <h1 class="h3 mb-3 font-weight-normal">Sign up to my newsletter</h1>
       <input
         type="text"
         id="first-name"
+        name="fName"
         class="form-control"
         placeholder="First Name"
         required
@@ -42,6 +43,7 @@
       <input
         type="text"
         id="last-name"
+        name="lName"
         class="form-control"
         placeholder="Last Name"
         required
@@ -49,6 +51,7 @@
       <input
         type="email"
         id="inputEmail"
+        name="email"
         class="form-control"
         placeholder="Email address"
         required
